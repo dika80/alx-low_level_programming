@@ -8,17 +8,15 @@
 int main(void)
 {
 	int d = 48;
-	char c = 'a';
-
 	while (d < 58)
 	{
 		putchar(d);
+		if (d != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		d++;
-	}
-	while (c <= 'f')
-	{
-		putchar(c);
-		c++;
 	}
 	putchar('\n');
 
