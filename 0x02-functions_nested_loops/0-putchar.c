@@ -6,7 +6,7 @@
  * print _putchar on success execution.
  */
 
-int _putchar(char c);
+int main(void)
 {
 	char s[] = "_putchar";
 	int i = 0;
